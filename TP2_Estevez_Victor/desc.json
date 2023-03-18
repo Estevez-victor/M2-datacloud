@@ -1,0 +1,66 @@
+{
+	"compiler":"scalac",
+	"optscompiler":"-language:implicitConversions",
+	"command":"scala",
+	"exercices":{
+	 "1-C’est les soldes":{
+	 	"required":[
+			"datacloud/scala/tpfonctionnel/catalogue/CatalogueSolde.scala",
+			"datacloud/scala/tpfonctionnel/catalogue/CatalogueSoldeWithFor.scala",
+			"datacloud/scala/tpfonctionnel/catalogue/CatalogueSoldeWithNamedFunction.scala",
+			"datacloud/scala/tpfonctionnel/catalogue/CatalogueSoldeWithAnoFunction.scala"
+
+		],
+		"tests":[
+			"datacloud.scala.tpfonctionnel.catalogue.test.CatSoldeForTest",
+			"datacloud.scala.tpfonctionnel.catalogue.test.CatSoldeNamedFTest",
+			"datacloud.scala.tpfonctionnel.catalogue.test.CatSoldeAnoFTest"
+		]
+	 },
+	  "2-Nombres premiers":{
+	 	"required":[
+			"datacloud/scala/tpfonctionnel/Premiers.scala"
+		],
+		"tests":[
+			"datacloud.scala.tpfonctionnel.test.PremiersTest"
+		]
+	 },
+	  "3-Letter Count":{
+	 	"required":[
+			"datacloud/scala/tpfonctionnel/Counters.scala"
+		],
+		"tests":[
+			"datacloud.scala.tpfonctionnel.test.CountersTest"
+		]
+	 },
+	  "4-Moyenne":{
+	 	"required":[
+			"datacloud/scala/tpfonctionnel/Statistics.scala"
+		],
+		"tests":[
+			"datacloud.scala.tpfonctionnel.test.StatisticsTest"
+		]
+	 },
+	  "5-Fonction d’ordre superieur":{
+	 	"required":[
+			"datacloud/scala/tpfonctionnel/MySorting.scala"
+		],
+		"tests":[
+			"datacloud.scala.tpfonctionnel.test.MySortingTest"
+		]
+	 },
+	  "6-Des fonctions en folies":{
+	 	"required":[
+			"datacloud/scala/tpfonctionnel/FunctionParty.scala"
+		],
+		"tests":[
+			"datacloud.scala.tpfonctionnel.test.FunctionPartyTest"
+		]
+	 }
+	 
+	 
+	 
+	}
+	
+	
+}

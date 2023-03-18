@@ -1,0 +1,38 @@
+{
+	"compiler":"scalac",
+	"optscompiler":"-language:implicitConversions",
+	"command":"scala",
+	"exercices":{
+	 "1-Catalogue de produits":{
+	 	"required":[
+			"datacloud/scala/tpobject/catalogue/Catalogue.scala",
+			"datacloud/scala/tpobject/catalogue/CatalogueWithMutable.scala",
+			"datacloud/scala/tpobject/catalogue/CatalogueWithNonMutable.scala"
+		],
+		"tests":[
+			"datacloud.scala.tpobject.catalogue.test.CatalogueWithMutableTest",
+			"datacloud.scala.tpobject.catalogue.test.CatalogueWithNonMutableTest"
+		]
+	 },
+	 "2-Structure de données en arbre binaire":{
+	 	"required":[
+			"datacloud/scala/tpobject/bintree/BinTrees.scala",
+			"datacloud/scala/tpobject/bintree/Tree.scala"
+		],
+		"tests":[
+			"datacloud.scala.tpobject.bintree.test.IntTreeTest",
+			"datacloud.scala.tpobject.bintree.test.TreeTest"
+		]
+	 },
+	 "3-Vecteur d’entiers":{
+	 	"required":[
+			"datacloud/scala/tpobject/vector/VectorInt.scala"
+		],
+		"tests":[
+			"datacloud.scala.tpobject.vector.test.VectorIntTest"
+		]
+	 }
+	}
+	
+	
+}
