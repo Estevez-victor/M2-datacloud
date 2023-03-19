@@ -1,6 +1,6 @@
 # datacloud
 
-Rendus de TP maison, 2022/2023.
+Rendus de TP fait à la maison, 2022/2023.
 
 
 sujets:
