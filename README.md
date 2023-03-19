@@ -7,7 +7,7 @@ sujets:
 
 TP1: scala objet
 
-TP2: scala fonctionnel
+TP2: scala fonctionnelle
 
 TP3: Spark
 
